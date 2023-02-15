@@ -9,13 +9,7 @@ const PageSections = () => {
   const handleWorkFlowOrder = (val) => {
     setWorkflowOrder(val);
   }
-  // Cut transparent png images using screenshots and photoshop
-  // Semantic UI React Grid widths stopped working, 
-  // but kept using them for CSS declarations
-  // Didn't add "Name" and "Created" Column headers because ran out of time
-  // Same for solid bottom border under column headers
-  // Set up some folder structure
-  // Copied down the semantic-forest slate theme. Didn't implement
+  
   return (
     <>
       <Grid divided>
