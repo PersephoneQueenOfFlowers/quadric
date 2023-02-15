@@ -31,7 +31,7 @@ With time restrictions was not able to get build for pre-processing set up.
 
 ...
 
- *On these last two points, there are several ways the project would benefit from simply having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS under the hood and accessible with only component and prop declarations. For another, the CSS that would still be there would be much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the CSS that applies to them if there's LESS, meaning easier scaling for a larger code base organization, better performance, and more hassle-free CSS coding with less likelihood of accidental clobber, unforeseen cascading, etc.*
+ *On these last two points, there are several ways the project would benefit from simply having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS under the hood and accessible with only component and prop declarations. For another, the CSS that would still be there would be much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the applicable CSS if there's LESS. This would make for easier scaling for a larger code base organization, better performance, and more hassle-free CSS coding with less likelihood of accidental clobbering or unforeseen cascading, etc.*
 
 ...
 
@@ -64,7 +64,7 @@ Set up some folder structure for larger project.
 │   ├── robots.txt
 etc...
 ```
-*Seeing that React and VSC have very intuitive and performant ways of auto-importing and finding imports that good file structure facilitates, I would think about this more and plan better for the file structure with a few things in mind: maximizing performance; improving reading and searching for developers; and none of ../../../../../../. VSC handles auto-import natively.*
+*Seeing that React and VSC have very intuitive and performant ways of auto-importing and finding imports that good file structure facilitates, I would think and discuss about this more and plan better for the file structure with a few things in mind: maximizing performance; improving reading and searching for developers; and none of ../../../../../../. VSC handles auto-import natively.*
 
 *I would typically rely on both my own memory and established guidelines in file structure organization where there's time. Here I relied a bit on memory. So, for a code base with multiple pages it would look maybe more like* 
 
@@ -92,7 +92,7 @@ Finally, I renamed the scripts and added new ones in the package.json because I 
 
 In the project directory, you can run:
 
-🍳
+mostly 🍳
   
 ### `npm start-ui`
 
