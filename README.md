@@ -1,40 +1,47 @@
 
+<span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="40px" height="40px" style="display:inline;vertical-align:middle;margin-left: -5px;"></span>
 
-
-
-# <span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="40px" height="40px" style="display:inline;vertical-align:middle;padding-right: 3px;"></span>Quadric front-end code challenge 
- 
-
+# Quadric front-end code challenge 
 *localhost:3000*
 <p align="left"><img src="src/images/quadric-sshot.png" alt="quadric logo" width="600" height="auto" style="display:inline;padding-top: 5px"></p>
 
 
 ## Project notes 🎙
 
-<p style="color:#7dd1f6;">This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses only the forked /mock folder from the original quadric-code-challenge repo.</p>
-<p style="color:#e7abb9;">
-Transparent png images were cut using screenshots and photoshop. 💥
-</p>
-<p style="color:#c5c4c7">
-Semantic UI React Grid widths stopped working, but kept using them for CSS declarations in place. 
- </p>
+^*Italics* == what I would do differently.^
 
-<p style="color:#7dd1f6;">
+ ^ 🍳 == boilerplate ^
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses only the forked /mock folder from the original quadric-code-challenge repo.
+
+...
+
+Transparent png images were cut using screenshots and photoshop. 📸
+
+...
+
+Semantic UI React Grid widths stopped working, (I think because of an uninstall while trying to import themes), but I kept using them for CSS declarations in place. 
+
+...
+
 With time restrictions was not able to get build for pre-processing set up. 
- </p>
 
-<p style="color:#e7abb9;">
+...
+
+ *On these last two points, there are several ways the project would benefit from simply having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS under the hood and accessible with only component and prop declarations. For another, the CSS that would still be there would be much much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the CSS that applies to them if there's LESS, meaning easier scaling for a larger code base organization, better performance, and more hassle-free CSS coding with less likelihood of accidental clobber, unforeseen cascading, etc.*
+
+...
+
 Didn't add "Name" and "Created" Column headers because ran out of time. 💣
-</p>
 
-<p style="color:#c5c4c7">
+...
+
 Same for solid bottom border under column headers; ran out of time.  
-</p>
 
-<p style="color:#e7abb9;">
-Set up some folder structure for larger project.
-</p>
+...
 
+Set up some folder structure for larger project. 
 ```
 ├── src
 │   ├── components
@@ -55,15 +62,35 @@ Set up some folder structure for larger project.
 │   ├── robots.txt
 etc...
 ```
+*Seeing that React and VSC have very intuitive and performant ways of auto-importing and finding imports that good file structure facilitates, I would think about this more and plan better for the file structure with a few things in mind: maximizing performance; improving reading and searching for developers; and none of ../../../../../../. VSC handles auto-import natively.*
 
-<p  style="color:#7dd1f6;">
-Copied down the semantic-forest slate theme. Didn't implement. That's why all the craco content is here. 
-</p>
+*I would typically rely on both my own memory and established guidelines in file structure organization where there's time. Here I relied a bit on memory. So, for a code base with multiple pages it would look maybe more like* 
 
+```
+├── src
+├────├styles
+├────├js
+├────├page
+├────├────components
+├────components
+```
+
+*It could all depend on the intended scaling. I seen tons of nesting in a performant application but everybody says don't do it too much. Organization is nice. *
+
+...
+
+Copied down the semantic-forest slate theme. Didn't implement. That's why all the craco content is here.
+
+...
+
+Finally, I renamed the scripts and added new ones in the package.json because I was a bit uncertain about whether craco was supposed to replace those run scripts or was just doing different things. I didn't like the immediate risk of script name collision or doing one thing when I wanted to do another. Maybe why the CSS is cattywampus??🔦
+
+...
 ## Available Scripts
 
 In the project directory, you can run:
-<p style="color:#474747;font-style:italic">mostly Readme.md boilerplate below</p>
+
+🍳
   
 ### `npm start-ui`
 
@@ -111,7 +138,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ---
 
-<span style="color:#474747;font-style:italic">more Readme.md boilerplate below</span>
+🍳
   
 ### Code Splitting
 
