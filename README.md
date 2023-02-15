@@ -1,9 +1,9 @@
 
 
 
-<p align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="45px" height="45px" style="display:inline;padding-top: 5px"></p>
 
-# Quadric front-end code challenge 
+# Quadric front-end code challenge <span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="25px" height="25px" style="display:inline;padding-top: 5px"></span>
+ 
 
 *localhost:3000*
 <p align="left"><img src="src/images/quadric-sshot.png" alt="quadric logo" width="600" height="auto" style="display:inline;padding-top: 5px"></p>
@@ -43,15 +43,12 @@ Set up some folder structure for larger project.
 │   │   ├── App.css
 │   │   ├── index.css
 │   │   ├── slate.min.css
-│   ├── views
-│   ├── model
-│   ├── index.js
 ├── public
-│   ├── css
-│   │   ├── **/*.css
-│   ├── images
-│   ├── js
+│   ├── favicon.io
 │   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+etc...
 ```
 
 <p  style="color:#7dd1f6;">
