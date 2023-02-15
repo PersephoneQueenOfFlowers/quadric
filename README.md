@@ -1,7 +1,7 @@
 
 
 
-<p align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="35px" height="35px" style="display:inline;padding-top: 5px"></p>
+<p align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="45px" height="45px" style="display:inline;padding-top: 5px"></p>
 
 # Quadric front-end code challenge 
 
