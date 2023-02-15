@@ -6,7 +6,7 @@
 # Quadric front-end code challenge 
 
 *localhost:3000*
-<p align="left"><img src="src/images/quadric-sshot.png" alt="quadric logo" width="400" height="auto" style="display:inline;padding-top: 5px"></p>
+<p align="left"><img src="src/images/quadric-sshot.png" alt="quadric logo" width="600" height="auto" style="display:inline;padding-top: 5px"></p>
 
 
 ## Project notes 🎙
