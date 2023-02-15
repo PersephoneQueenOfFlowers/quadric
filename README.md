@@ -85,6 +85,10 @@ Copied down the semantic-forest slate theme. Didn't implement. That's why all th
 
 ...
 
+I set up most of the logic for handling the curiously named 'A to Z' and 'Z to A' buttons. The parent component passes a boolean to the workflows, and the jsx is currently set up to display the workflows in chronologically reverse order as it appears to me in the UI.
+
+...
+
 Finally, I renamed the scripts and added new ones in the package.json because I was a bit uncertain about whether craco was supposed to replace those run scripts or was just doing different things. I didn't like the immediate risk of script name collision or doing one thing when I wanted to do another. Maybe why the CSS is cattywampus??🔦
 
 ...
