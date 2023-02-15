@@ -1,6 +1,5 @@
 
-<span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="140px" height="140px" style="display:inline;vertical-align:middle;margin-left: -15px;"></span>
-
+<span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="40px" height="40px" style="display:inline;vertical-align:middle;margin-left: -5px;"></span>
 
 # Quadric front-end code challenge 
 *localhost:3000*
