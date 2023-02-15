@@ -18,7 +18,12 @@ Transparent png images were cut using screenshots and photoshop. 💥
 <p style="color:#c5c4c7">
 Semantic UI React Grid widths stopped working, but kept using them for CSS declarations in place. 
  </p>
-<p style="color:#c5c4c7">
+
+<p style="color:#7dd1f6;">
+With time restrictions was not able to get build for pre-processing set up. 
+ </p>
+
+<p style="color:#e7abb9;">
 Didn't add "Name" and "Created" Column headers because ran out of time. 💣
 </p>
 
