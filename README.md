@@ -1,5 +1,6 @@
 
-<span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="40px" height="40px" style="display:inline;vertical-align:middle;margin-left: -5px;"></span>
+<span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="140px" height="140px" style="display:inline;vertical-align:middle;margin-left: -15px;"></span>
+
 
 # Quadric front-end code challenge 
 *localhost:3000*
@@ -12,7 +13,7 @@
 ^*Italics* == what I would do differently.^
 
 
-^ 🍳 == boilerplate ^
+^ 🍳 === boilerplate ^
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses only the forked /mock folder from the original quadric-code-challenge repo.
