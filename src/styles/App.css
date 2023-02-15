@@ -1,0 +1,209 @@
+#root {
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #858585;
+  height: inherit;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.ui.divided.grid {
+  display: grid;
+  grid-template-columns: [line1] 3% [order-content] 15% [line2] 3% [divider] 1px [workflow-content] auto [right-gutter] 3% [end];
+  height: inherit;
+}
+
+.ui.divided.grid .two.wide.column {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  text-align:left;
+}
+
+.ui.button, .idAndstatus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.two.wide.column .ui.button {
+  margin: 0.5em 0.25em 0.5em 0;
+  border-radius: 2em;
+  background: #474747;
+  text-align: left;
+  color: #fff;
+  font-weight: 600;
+  padding: 2% 7%;
+  border-style: none;
+}
+
+.ui.button.inverted {
+  background: none;
+  color: #fff;
+  border: none;
+  padding-left:15px;
+  font-size: 1.25em;
+}
+
+.ui.divider {
+  background: #474747;
+}
+
+.two.wide.column .ui.button:not(.active) {
+  background:none;
+  border:none;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px dashed #a7a7a7;
+  font-size: 1.25em;
+}
+
+.workflowHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.workflowHeader div:not(.logo) {
+  display: inline-flex;
+}
+
+#nav .ui.button :nth-child(odd) {
+  padding-right: 10px;
+}
+
+.workflowHeader div .ui.button {
+  background: none;
+  color: #a7a7a7;
+  padding: 0% 15px;
+  border: none;
+}
+/* without having less in place && w/out overloading selectors  
+we can at least use cascading to avoid repeating props for imgs
+inside the workflow header.
+*/
+.workflowHeader img {
+  display: inline;
+  max-height: 35px;
+  padding-right: 8px;
+}
+
+.workflowHeader .ui.button img {
+  max-height: 25px;
+}
+
+.workflowHeader:after {
+  content: "";
+  background: #474747;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 1px;
+}
+
+.idAndstatus {
+  justify-content: space-around;
+}
+
+.idAndstatus .ui.small.header {
+  margin-right: 10px;
+}
+
+.idAndstatus .button {
+  padding: 6px 15px;
+  border-radius: 2em;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.button.success {
+  background: green;
+}
+
+.button.failure {
+  background: red;
+}
+
+.dateAndExpandWorkflow {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dateAndExpandWorkflow img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 4px 18px 4px;
+}
+
+.dateAndExpandWorkflow .button img {
+  width: 25px;
+  height: 25px;
+  margin: 10px 0 4px;
+}
+
+.ui.divided.grid .fourteen.wide.column {
+  background: #222222;
+}
+
+.ui.divided.grid .fourteen.wide.column:first-child {
+  background: rgba(35, 35, 35, 1);
+  background: rgba(55, 55, 55, 1);
+}
+
+.ui.divided.grid .fourteen.wide.column:nth-child(3) {
+  background: rgba(35, 35, 35, 1);
+}
+
+.ui.divided.grid .two.wide.column {
+  background: linear-gradient(90deg, rgba(55, 55, 55, 1) 14%, rgba(35, 35, 35, 1) 100%);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-inline-start: 38px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
