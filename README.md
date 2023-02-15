@@ -2,7 +2,7 @@
 
 
 
-# <span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="30px" height="30px" style="display:inline;vertical-align:middle;padding-right: 3px;"></span>Quadric front-end code challenge 
+# <span align="left"><img src="src/images/quadric-logo.png" alt="quadric logo" width="40px" height="40px" style="display:inline;vertical-align:middle;padding-right: 3px;"></span>Quadric front-end code challenge 
  
 
 *localhost:3000*
