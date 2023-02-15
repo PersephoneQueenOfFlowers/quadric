@@ -8,9 +8,11 @@
 
 ## Project notes 🎙
 
+
 ^*Italics* == what I would do differently.^
 
- ^ 🍳 == boilerplate ^
+
+^ 🍳 == boilerplate ^
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses only the forked /mock folder from the original quadric-code-challenge repo.
@@ -75,7 +77,7 @@ etc...
 ├────components
 ```
 
-*It could all depend on the intended scaling. I seen tons of nesting in a performant application but everybody says don't do it too much. Organization is nice. *
+*It could all depend on the intended scaling. I seen tons of nesting in a performant application but everybody says don't do it too much. Organization is nice.*
 
 ...
 
