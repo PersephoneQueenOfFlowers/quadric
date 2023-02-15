@@ -31,7 +31,7 @@ With time restrictions was not able to get build for pre-processing set up.
 
 ...
 
- *On these last two points, there are several ways the project would benefit from simply having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS under the hood and accessible with only component and prop declarations. For another, the CSS that would still be there would be much much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the CSS that applies to them if there's LESS, meaning easier scaling for a larger code base organization, better performance, and more hassle-free CSS coding with less likelihood of accidental clobber, unforeseen cascading, etc.*
+ *On these last two points, there are several ways the project would benefit from simply having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS under the hood and accessible with only component and prop declarations. For another, the CSS that would still be there would be much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the CSS that applies to them if there's LESS, meaning easier scaling for a larger code base organization, better performance, and more hassle-free CSS coding with less likelihood of accidental clobber, unforeseen cascading, etc.*
 
 ...
 
