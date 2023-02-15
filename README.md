@@ -23,7 +23,7 @@ Transparent png images were cut using screenshots and photoshop. 📸
 
 ...
 
-Semantic UI React Grid widths stopped working, (I think because of an uninstall while trying to import themes), but I kept using them for CSS declarations in place. 
+Semantic UI React component props including Grid Widths stopped working, (I think because of an uninstall while trying to import themes), but I kept using them for CSS declarations used for manual styling. 
 
 ...
 
@@ -31,11 +31,11 @@ With time restrictions was not able to get build for pre-processing set up.
 
 ...
 
- *On these last two points, there are several ways the project would benefit from simply having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS under the hood and accessible with only component and prop declarations. For another, the CSS that would still be there would be much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the applicable CSS if there's LESS. This would make for easier scaling for a larger code base organization, better performance, and more hassle-free CSS coding with less likelihood of accidental clobbering or unforeseen cascading, etc.*
+ *On these last two points, there are several ways the project would benefit from having the pre-processing (LESS) working. For one, the CSS is dramatically reduced by virtue of a React integration for CSS, which has a ton of CSS abstracted and accessible with only component and prop declarations. For another, the CSS that would still be there would be much more terse and dry...because LESS. It would be much easier to parse out the CSS into smaller more manageable imported files that aggregate the applicable CSS if there's LESS, which would in turn make for easier scaling, better performance, and more hassle-free CSS coding with less likelihood of accidental clobbering or unforeseen cascading, etc.*
 
 ...
 
-Didn't add "Name" and "Created" Column headers because ran out of time. 💣
+Didn't add "Name" and "Created" Column headers from the design because I ran out of time. 💣
 
 ...
 
